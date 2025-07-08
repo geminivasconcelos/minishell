@@ -1,5 +1,5 @@
 
-# 🐚 Mini Shell em Python (com histórico, cd e múltiplos comandos)
+# 🐚 Mini Shell em Python 
 
 Este projeto de um mini interpretador de comandos (shell) em Python, simulando um terminal. Usando chamadas ao sistema como `fork()`, `execvp()`, `wait()`, `read()` e `write()` para executar comandos, além de comandos internos como `cd`, `history` e `exit`.
 
