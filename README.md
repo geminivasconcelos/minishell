@@ -22,7 +22,7 @@ Este projeto implementa um mini interpretador de comandos (shell) em Python, sim
 3. Execute com:
 
    ```bash
-   python3 mini_shell.py
+   python3 minishell.py
    ```
 
 ---
@@ -45,7 +45,7 @@ Todas essas chamadas são de baixo nível e fazem parte da interface POSIX do si
 
 ```bash
 /home/usuario > echo Olá Mundo
-Olá Mundo
+Ola Mundo
 
 /home/usuario > ls -l
 (total de arquivos + lista)
@@ -82,7 +82,6 @@ Também é possível executar **vários comandos na mesma linha** usando `;`:
 
 ## ⚠️ Limitações conhecidas
 
-- ❌ Não implementa **redirecionamento** (`>`, `<`) ou **pipes** (`|`)
 - ❌ Não possui **autocompletar** ou **histórico com setas** (como ↑ ↓)
 - ❌ Não suporta comandos com encadeamento (`&&`, `||`)
 - ❌ Não trata variáveis de ambiente (ex: `$HOME`)
