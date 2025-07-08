@@ -97,8 +97,3 @@ Também é possível executar **vários comandos na mesma linha** usando `;`:
 - `shell_loop()` → Loop principal que mantém o shell rodando
 - `historico` → Lista que armazena os comandos digitados
 
----
-
-## 👨‍💻 Autor
-
-Este mini shell foi desenvolvido para fins educacionais em uma disciplina de Sistemas Operacionais, com foco em prática de chamadas ao sistema e controle de processos no Linux.
