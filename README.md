@@ -44,13 +44,13 @@ Todas essas chamadas são de baixo nível e fazem parte da interface POSIX do si
 ## 💻 Exemplos de comandos testados
 
 ```bash
-/home/usuario > echo Olá Mundo
+/home/usuario > echo Ola Mundo
 Ola Mundo
 
 /home/usuario > ls -l
 (total de arquivos + lista)
 
-/home/usuario > cat mini_shell.py
+/home/usuario > cat minishell.py
 (exibe o conteúdo do próprio arquivo)
 
 /home/usuario > cd /tmp
@@ -60,7 +60,7 @@ Ola Mundo
 /home/usuario > history
 1: echo Olá Mundo
 2: ls -l
-3: cat mini_shell.py
+3: cat minishell.py
 4: cd /tmp
 5: pwd
 6: history
